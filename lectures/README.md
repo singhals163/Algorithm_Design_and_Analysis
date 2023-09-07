@@ -9,7 +9,7 @@
 ### Lecture 11
 - Prove the Optimal subpath property (slide 14)
 - write a pseudo code for dijkstra (slide 23)
-- find the time complexity of dijkstra (slid)
+- find the time complexity of dijkstra (slide 23)
 - what is the most efficient data structure to efficiently compute the minimum of the unvisited nodes (slide 23)
 
 ### Lecture 12
