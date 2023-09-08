@@ -21,25 +21,25 @@ Check the MST only at t1 and t2. Divide the edges into 4 types:
 
 ### 8. Maximum Capacity Path
 $dist[v] = 0\ \forall\ v \in\ V$ <br>
-$dist[s] = \infty $ <br>
+$dist[s] = \infty$ <br>
 $visited[s] = false\ \forall\ v\ \in\ V$ <br>
 $visited[s] = false\ \forall\ v\ \in\ V$ <br>
-$max\_heap\ p $ <br>
-$p.push(\{dist[s], s\}) $ <br>
-$while(\ !p.empty()\ )\ \{$ <br>
+$max\_heap\ p$ <br>
+$p.push(dist[s], s)$ <br>
+$while(\ !p.empty()\ )$ <br>
 $\ \ \ \ \ \ curr = p.top()$ <br>
 $\ \ \ \ \ \ p.pop()$ <br>
-$\ \ \ \ \ \ if\ (\ visited[curr]\ )\ continue;$ <br>
-$\ \ \ \ \ \ visited[curr] = true;$ <br>
-$\ \ \ \ \ \ for(curr, v) \in E\ \{$ <br>
-$\ \ \ \ \ \ \ \ \ \ \ \ if\ (\ !visited[v]\ )\ \{$ <br>
-$\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ if(dist[v] < min (dist[curr], C(curr, v)))\ \{$ <br>
+$\ \ \ \ \ \ if\ (\ visited[curr]\ )\ continue$ <br>
+$\ \ \ \ \ \ visited[curr] = true$ <br>
+$\ \ \ \ \ \ for(curr, v) \in E$ <br>
+$\ \ \ \ \ \ \ \ \ \ \ \ if\ (\ !visited[v]\ )$ <br>
+$\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ if(dist[v] < min (dist[curr], C(curr, v)))$ <br>
 $\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ dist[v] = min(dist[curr], C(curr, v))$ <br>
-$\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ p.push(\{dist[v], v\}) $ <br>
-$\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \}$ <br>
+$\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ p.push(dist[v], v) $ <br>
+<!-- $\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \}$ <br>
 $\ \ \ \ \ \ \ \ \ \ \ \ \}$ <br>
 $\ \ \ \ \ \ \}$ <br>
-$\}$ <br>
+$\}$ <br> -->
 
 ### 10. Special Shortest Paths
 - Find the BFS order traversal of all nodes starting from the root node
