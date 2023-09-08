@@ -24,7 +24,7 @@ $dist[v] = 0\ \forall\ v \in\ V$ <br>
 $dist[s] = \infty$ <br>
 $visited[s] = false\ \forall\ v\ \in\ V$ <br>
 $visited[s] = false\ \forall\ v\ \in\ V$ <br>
-$max\_heap\ p$ <br>
+$max\_ heap\ p$ <br>
 $p.push(dist[s], s)$ <br>
 $while(\ !p.empty()\ )$ <br>
 $\ \ \ \ \ \ curr = p.top()$ <br>
