@@ -26,3 +26,30 @@
 ### Lecture 15
 - Design neat, compact and efficient implementation of ***Kosaraju's Algorithm*** (slide 26)
 - Optional (Slide 28)
+
+
+### Lecture 27
+- Proof of edge disjoint paths
+
+###  Lecture 28
+- What if we used the longest suffix of 1's as the as $\phi$ (slide 27)
+
+### Lecture 29
+- How to work with the credits based approach?
+- Slide 29, can we take $Size(T)$ as the amortised cost?
+    <br>Ans: No, because the initial cost will not be 0 in that case. We can still use it by using the initial cost in the final analysis of the amortised cost, but such kind of potential functions are not studied in the class
+- Exercises (Slide 34)
+
+
+### Topics to revisit
+- lectures complete(done, except finding median last lecture)
+- amortised sheet (done)
+- how to calculate pi function for KMP (done, same as KMP) (visit other problems on KMP again)
+- remaining sheet problems 
+- min perimeter triangle (done)
+- proof of min flow (done)
+- assignments 
+- max-min flow book important problems (done)
+- problems on other domains if time permits
+- proof of topo sort
+- non-integral max flow termination
